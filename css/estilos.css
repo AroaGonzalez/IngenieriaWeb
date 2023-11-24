@@ -1,0 +1,114 @@
+body{
+    background-image: url('https://images.ecestaticos.com/MUsrmUgYGUwR5M6ZyyHCDmeFRUk=/0x0:2121x1414/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fd9e%2F66d%2F793%2Fd9e66d793adbc994841e60850a17e61c.jpg');
+    background-size:  auto;
+    max-block-size: 1920px;
+    padding: 1em;
+}
+.fondo{
+    background-color: rgba(255,255,255,0.5);
+    margin-top: 20px;
+}
+#informacion>*{
+    margin-left: 20px;
+    padding: 1em;
+}
+.fuente-dividido{
+    font-family: 'Bodoni MT', 'Bodoni 72', 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+    color: floralwhite;
+    text-align: justify;
+    font-size: small;
+    column-count:3;
+}
+.fuente{
+    font-family: 'Bodoni MT', 'Bodoni 72', 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+    color: floralwhite;
+    text-align: justify;
+    font-size: small;
+}
+.fuente2{
+    font-family: 'Bodoni MT', 'Bodoni 72', 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+    color: floralwhite;
+    text-align: justify;
+}
+.fuente-parrafo{
+    font-family: 'Bodoni MT', 'Bodoni 72', 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+    color: black;
+    text-align: justify;
+    font-size: small;
+}
+.fuente-cabecera{
+    font-family: 'Bodoni MT', 'Bodoni 72', 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.fuente-tabla{
+    font-family: 'Bodoni MT', 'Bodoni 72', 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+    color: rgb(253, 253, 253);
+    text-align: start;
+}
+.image-row {
+    display: flex;
+    margin: 20px;
+}
+.image-container {
+    text-align: center;
+    margin: 20px;
+}
+.image-container img {
+    width: auto;
+    height: 150px;
+}
+.image-container p {
+    margin-top: 10px;
+    text-align: center;
+}
+.fondoCabecera{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,1);
+
+}
+.fondoFooter{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,1);
+}
+.fondoFooter h4{
+    height: 100%;
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.linkLista{
+    cursor: pointer;
+    height: 50px;
+}
+.bolded{ 
+    font-weight: bold;
+}
+.fotoRaquetas{
+    cursor: pointer;
+    height: 120px;
+}
+#parteArriba{
+    max-block-size: 1800px;
+}
+#inicio{
+    width: 50%;
+}
+#preguntas{
+    width: 50%;
+    display: inline-block;
+}
+.moverlista{
+    float: left;
+    margin-right: 30px;
+}
+#cabecera{
+    display: flex;
+    position: relative;
+    margin-top: 60px;
+}

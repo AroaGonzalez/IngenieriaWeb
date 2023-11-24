@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">    
+        <title>Formulario</title>
+            <link rel = "stylesheet" href="css/estilos.css">
+            <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+  </head>
+    <body>
+        <header>
+            <div>
+                <div class="fondoCabecera">
+                    <h2 class="fuente-cabecera">¿QUÉ RAQUETA SE ADAPTA MÁS A TI?</h2>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="wilson.html">Wilson</a></li>
+                        <li><a href="Yonex.html">Yonex</a></li>
+                        <li><a href="Formulario.html">Formulario</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="fondo">
+            <div>
+                <h1>Rellene los siguientes campos</h1>
+                <form>
+                <fieldset>
+                    <legend>Datos personales:</legend>
+                    Nombre: <input type="text"><br><br>
+                    Apellidos: <input type="text"><br><br>
+                    F. Nacimiento: <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Datos de contacto:</legend>
+                    Teléfono: <input type="text"><br><br>
+                    Email: <input type="text"><br><br>
+                </fieldset>
+                </form>
+                <fieldset>
+                    <label for="fecha">¿De cuanto presupuesto cuenta?</label>
+                    <select id="fecha" name="Fecha">
+                        <option selected>70</option>
+                        <option>100</option>
+                        <option>120</option>
+                        <option>160</option>
+                        <option>200</option>
+                        <option>250</option>
+                    </select>
+                    <br><br>
+                    <label>¿Prefieres una raqueta de control o potencia?</label>
+                    <input type="radio" name="tipo" value="control" id="control">
+                    <label for="control">Control</label>
+                    <input type="radio" name="tipo" value="potencia" id="potencia">
+                    <label for="potencia">Potencia</label>
+                </fieldset>
+                <br>
+                <br>
+                <input type="submit" value="Encontrar mi raqueta">
+            </div>
+        </div>   
+        <div id="footer">
+            <div class="fondoFooter">
+                <h4>Contactadnos al 635548829</h4> 
+            </div>
+        </div>
+    </body>
+</html>
